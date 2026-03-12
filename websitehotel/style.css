@@ -1,0 +1,295 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+background:#0f1b3d;
+color:white;
+padding:15px 40px;
+}
+
+.menu a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+
+/* HERO */
+
+.hero{
+background:url(images/foto1.jpg);
+background-size:cover;
+background-position:center;
+height:350px;
+color:white;
+text-align:center;
+padding-top:100px;
+}
+
+/* BOOKMARK MENU */
+
+.bookmark-menu{
+text-align:center;
+margin:30px 0;
+}
+
+.bookmark-menu a{
+margin:0 20px;
+text-decoration:none;
+font-weight:bold;
+color:#1d3557;
+font-size:18px;
+}
+
+.bookmark-menu a:hover{
+color:#e63946;
+}
+
+.searchbox{
+background:white;
+display:inline-block;
+padding:15px;
+border-radius:10px;
+margin-top:20px;
+}
+
+.searchbox input{
+padding:10px;
+margin:5px;
+}
+
+.searchbox button{
+padding:10px 20px;
+background:#162a63;
+color:white;
+border:none;
+}
+
+
+/* PROMO */
+
+.promo{
+display:flex;
+justify-content:center;
+margin:40px;
+}
+
+.promo-card{
+background:#e63946;
+color:white;
+padding:20px;
+margin:10px;
+width:250px;
+border-radius:10px;
+}
+
+
+/* DESTINASI */
+
+.destinasi{
+padding:40px;
+text-align:center;
+}
+
+.grid{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+width:320px;            /* frame diperbesar */
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+height:220px;           /* tinggi gambar diperbesar */
+object-fit:cover;       /* supaya gambar tidak gepeng */
+border-radius:10px;
+}
+
+/* MAP SECTION */
+
+.map-section{
+text-align:center;
+padding:60px 20px;
+background:#f5f5f5;
+}
+
+.map-section h2{
+margin-bottom:30px;
+color:#1d3557;
+font-size:28px;
+}
+
+/* container map */
+
+.map-container{
+width:80%;
+max-width:900px;
+margin:auto;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* iframe map */
+
+.map-container iframe{
+width:100%;
+height:450px;
+border:0;
+}
+
+/* PARTNER SECTION */
+
+.partners{
+text-align:center;
+padding:70px 20px;
+background:#f5f5f5;
+}
+
+.partner-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.partner-card{
+background:white;
+padding:20px;
+border-radius:12px;
+width:160px;
+height:110px;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.partner-card img{
+max-width:120px;
+max-height:60px;
+}
+
+.partner-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* HOTEL ROOMS TABLE */
+
+.rooms{
+text-align:center;
+padding:60px 20px;
+background:#f5f5f5;
+}
+
+.room-table{
+max-width:1000px;
+}
+
+.room-cell{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+text-align:center;
+width:300px;
+}
+
+.room-cell img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.room-cell h3{
+margin:15px 0 10px;
+}
+
+.room-cell p{
+margin:5px 0;
+color:#555;
+}
+
+.room-cell h4{
+margin:15px 0;
+color:#1d3557;
+}
+
+.book-btn{
+display:inline-block;
+padding:10px 20px;
+background:#1d3557;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.book-btn:hover{
+background:#e63946;
+}
+
+/* BACK TO TOP BUTTON */
+
+.top-btn{
+position:fixed;
+bottom:30px;
+right:30px;
+background:#1d3557;
+color:white;
+padding:12px 18px;
+border-radius:8px;
+text-decoration:none;
+font-size:14px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.top-btn:hover{
+background:#e63946;
+}
+
+/* FOOTER */
+
+footer{
+background:#e6e1d5;
+padding:40px;
+margin-top:40px;
+}
+
+.footer-grid{
+display:flex;
+justify-content:space-around;
+}
+
+footer a{
+text-decoration:none;
+color:#333;
+}
+
+.copyright{
+text-align:center;
+margin-top:20px;
+}
